@@ -1,0 +1,9 @@
+{
+	"name": "CogAdfRev",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "75a7b424-09b9-405c-8602-dd5c5f77e3f7",
+		"tenantId": "e0c0727b-e78f-4b8c-90e1-e05ab92d58e5"
+	}
+}
