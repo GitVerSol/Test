@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "CogAdfRev"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_connectionString": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://imdatalake123.dfs.core.windows.net/"
+		},
+		"StorageAcctEventTrigger_properties_typeProperties_scope": {
+			"value": "/subscriptions/f56224fc-3ca9-4900-804c-a20111b6a57c/resourceGroups/adf/providers/Microsoft.Storage/storageAccounts/imdatalake123"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
