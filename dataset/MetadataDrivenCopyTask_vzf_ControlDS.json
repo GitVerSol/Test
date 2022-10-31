@@ -1,0 +1,19 @@
+{
+	"name": "MetadataDrivenCopyTask_vzf_ControlDS",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "MetadataDrivenCopyTask_vzf_20221031"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "emp_control",
+			"table": "MainControlTable_vzf"
+		}
+	}
+}
