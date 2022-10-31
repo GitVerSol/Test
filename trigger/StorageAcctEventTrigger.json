@@ -1,0 +1,26 @@
+{
+	"name": "StorageAcctEventTrigger",
+	"properties": {
+		"description": "StorageAcctEventTrigger",
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pipeline1",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/input/blobs/nput/*.*",
+			"blobPathEndsWith": ".csv",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/f56224fc-3ca9-4900-804c-a20111b6a57c/resourceGroups/adf/providers/Microsoft.Storage/storageAccounts/imdatalake123",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
