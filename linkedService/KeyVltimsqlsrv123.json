@@ -1,0 +1,10 @@
+{
+	"name": "KeyVltimsqlsrv123",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://TestRev.vault.azure.net/"
+		}
+	}
+}
