@@ -476,6 +476,7 @@
 				"typeProperties": {
 					"location": {
 						"type": "AzureBlobFSLocation",
+						"fileName": "Emp",
 						"fileSystem": "output"
 					},
 					"columnDelimiter": ",",
