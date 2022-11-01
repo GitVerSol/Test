@@ -33,7 +33,7 @@
 				"source(output(",
 				"          EMP_ID as string,",
 				"          EMP_NAME as string,",
-				"          SALARY as string,",
+				"          SALARY as integer,",
 				"          DEPT_ID as string",
 				"     ),",
 				"     allowSchemaDrift: true,",
