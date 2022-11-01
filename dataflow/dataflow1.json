@@ -40,7 +40,7 @@
 				"     validateSchema: false,",
 				"     isolationLevel: 'READ_UNCOMMITTED',",
 				"     format: 'table') ~> source1",
-				"source1 filter(SALARY >=$param_fltr_sal) ~> filter1",
+				"source1 filter(SALARY >= $param_fltr_sal) ~> filter1",
 				"filter1 sink(allowSchemaDrift: true,",
 				"     validateSchema: false,",
 				"     umask: 0777,",
