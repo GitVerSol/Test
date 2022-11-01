@@ -1,0 +1,17 @@
+{
+	"name": "AzureSqlDatabase2keyvlt",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "KeyVltimsqlsrv123",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "mysqlsecret"
+			}
+		}
+	}
+}
